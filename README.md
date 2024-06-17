@@ -13,9 +13,9 @@ In the project directory, you can run:
 
 ### Important Dependencies to Install :
 
-#npm install jspdf jspdf-autotable
-#npm install react-csv xlsx jspdf jspdf-autotable
-#npm install @mui/icons-material  
+npm install jspdf jspdf-autotable.\
+npm install react-csv xlsx jspdf jspdf-autotable.\
+npm install @mui/icons-material  
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
