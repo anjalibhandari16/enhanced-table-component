@@ -1,3 +1,9 @@
+
+### Important Dependencies to Install :
+#npm install jspdf jspdf-autotable
+#npm install react-csv xlsx jspdf jspdf-autotable
+#npm install @mui/icons-material     
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
