@@ -1,8 +1,5 @@
 
-### Important Dependencies to Install :
-#npm install jspdf jspdf-autotable
-#npm install react-csv xlsx jspdf jspdf-autotable
-#npm install @mui/icons-material     
+   
 
 # Getting Started with Create React App
 
@@ -13,6 +10,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+
+### Important Dependencies to Install :
+
+#npm install jspdf jspdf-autotable
+#npm install react-csv xlsx jspdf jspdf-autotable
+#npm install @mui/icons-material  
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
