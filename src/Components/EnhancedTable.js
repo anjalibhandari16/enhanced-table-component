@@ -96,7 +96,7 @@ const EnhancedTable = ({ data, columns }) => {
 
   return (
     <Paper>
-      <Box display="flex" justifyContent="space-between" alignItems="center" padding="16px">
+      <Box display="flex" justifyContent="space-between" alignItems="center" padding="16px" color="#00308F">
         <TextField
           variant="outlined"
           size="small"
@@ -113,8 +113,8 @@ const EnhancedTable = ({ data, columns }) => {
         />
         <Box display="flex" justifyContent="space-between" alignItems="center" padding="16px">
         <IconButton onClick={handleClearFilters}  style={{display:"flex", flexDirection:"column"}}>
-          <FilterAltOffIcon />
-          <div style={{fontSize:"10px"}}>Clear Filters</div>
+          <FilterAltOffIcon style={{fontSize:"22px", color:"#00308F"}}/>
+          <div style={{fontSize:"10px", color:"#00308F"}}>Clear Filters</div>
         </IconButton >
         <DownloadIcon filteredData={filteredData} columns={columns}/>
         </Box>
@@ -123,7 +123,7 @@ const EnhancedTable = ({ data, columns }) => {
       {isMobile ? (
         <Box>
           {paginatedData.map((row, index) => (
-            <Card key={index} variant="outlined" style={{ margin: '16px' }}>
+            <Card key={index} variant="outlined" style={{ margin: '16px'}}>
               <CardHeader title={`Row ${index + 1}`} />
               <CardContent>
                 {columns.map((column) => (
@@ -139,7 +139,7 @@ const EnhancedTable = ({ data, columns }) => {
             <TableHead>
               <TableRow>
                 {columns.map((column) => (
-                  <TableCell key={column.id}>
+                  <TableCell key={column.id} style={{color:"#00308F", fontWeight:"600" }}>
                     <TableSortLabel
                       active={orderBy === column.id}
                       direction={orderBy === column.id ? order : 'asc'}

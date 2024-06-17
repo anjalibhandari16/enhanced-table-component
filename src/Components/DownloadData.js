@@ -49,7 +49,7 @@ function DownloadData({filteredData={},columns={}}) {
 
     return (
         <div>
-            <DownloadIcon onClick={handleOpenModal}></DownloadIcon>
+            <DownloadIcon onClick={handleOpenModal}  style={{fontSize:"30px"}}></DownloadIcon>
 
             {openDownload ?
                 <Modal open={openDownload}
